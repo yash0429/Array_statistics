@@ -30,7 +30,7 @@
  * @param data A unsigned char pointer to an n-element data array
  * @param length An unsigned integer as the size of the array
  */
-void print_statistics(unsigned char* , unsigned int);
+void print_statistics(unsigned char* data , unsigned int length);
 
 /**
  * @brief print array to screen
@@ -41,7 +41,7 @@ void print_statistics(unsigned char* , unsigned int);
  * @param data A unsigned char pointer to an n-element data array
  * @param length An unsigned integer as the size of the array
  */
-void print_array(unsigned char* , unsigned int);
+void print_array(unsigned char* data , unsigned int length);
 
 /**
  * @brief find median of an array
@@ -53,7 +53,7 @@ void print_array(unsigned char* , unsigned int);
  *
  * @return Median of array
  */
-unsigned char find_median(unsigned char* , unsigned int);
+unsigned char find_median(unsigned char* data , unsigned int length);
 
 /**
  * @brief find mean of an array
@@ -65,7 +65,7 @@ unsigned char find_median(unsigned char* , unsigned int);
  *
  * @return Median of array
  */
-unsigned char find_mean(unsigned char* , unsigned int);
+unsigned char find_mean(unsigned char* data , unsigned int length);
 
 /**
  * @brief find maximum of an array
@@ -77,7 +77,7 @@ unsigned char find_mean(unsigned char* , unsigned int);
  *
  * @return maximum of array
  */
-unsigned char find_maximum(unsigned char* , unsigned int);
+unsigned char find_maximum(unsigned char* data , unsigned int length);
 
 /**
  * @brief find minimum of an array
@@ -89,7 +89,7 @@ unsigned char find_maximum(unsigned char* , unsigned int);
  *
  * @return minimum of array
  */
-unsigned char find_minimum(unsigned char* , unsigned int);
+unsigned char find_minimum(unsigned char* data , unsigned int length);
 
 /**
  * @brief sort the given array
@@ -102,6 +102,6 @@ unsigned char find_minimum(unsigned char* , unsigned int);
  * @param length An unsigned integer as the size of the array
  *
  */
-unsigned char sort_array(unsigned char* , unsigned int);
+unsigned char sort_array(unsigned char* data , unsigned int length);
 
 #endif /* __STATS_H__ */
